@@ -24,10 +24,20 @@ Then build and seed the database.
 
 `
 mysql -u 'your username' -p
+`
+`
 password: 'your password'
+`
+`
 mysql source db/schema.sql
+`
+`
 use ecommerce_db
+`
+`
 quit
+`
+`
 npm run seed
 `
 
